@@ -194,3 +194,9 @@ address {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+
+.about__column {
+  display: grid;
+  grid-template-columns: 430px 1fr;
+}
+
