@@ -124,8 +124,6 @@ address {
   text-transform: uppercase;
   word-spacing: 18px;
   line-height: 2;
-  text-align: baseline;
-
 }
 
 .bet-button {
@@ -288,6 +286,7 @@ address {
 .footer__social-list {
   display: flex;
   column-gap: 47px;
+  justify-self: end;
 }
 
 .footer_social-link-item {
@@ -298,8 +297,4 @@ address {
 
 .footer__address {
   justify-self: start;
-}
-
-.footer__social-list {
-  justify-self: end;
 }
