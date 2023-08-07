@@ -14,22 +14,22 @@
       <nav class="header__menu">
         <ul class="header__link-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            главная
+            <a class="header__link">главная</a>
           </li>
           <li class="header__links-list-item">
-            посмотреть лоты
+            <a class="header__link">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            об аукционе
+            <a class="header__link">об аукционе</a>
           </li>
         </ul>
       </nav>
       <a class="header__logo"><img class="header__logo-image" src="images/logo-black.svg" alt="Цветы, нарисованные гуашью"></a>
-      <addres class="header__address">
-        <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        наб. Принсенграхт 263-265, <br>Амстердам
-      </addres>
+      <address class="block__address">
+        <a class="block__inline" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="block__inline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-265, <br>Амстердам</p>
+      </address>
     </header>
     <main class="main">
       <section class="cover">
@@ -55,7 +55,7 @@
         </h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a class="card-link">
+            <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -68,7 +68,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link">
+            <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -81,7 +81,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link">
+            <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -94,7 +94,7 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link">
+        <a class="lots__look-more-link" href="#0">
           посмотреть больше
         </a>
       </section>
@@ -107,57 +107,59 @@
             <h2 class="about__title">
               Об аукционе
             </h2>
-            <p class="about__paragraph about__paragraph__mb">
-              Здесь вы не встретите очередное пафосное собрание невероятно дорогого
-              антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион.
-              Потому что кому нужен дневник девочки-подростка или картина, которую может
-              нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные
-              любителями?
-            </p>
-            <p class="about__paragraph">
-              Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
-              В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то
-              они казались просто неудачными. Но, несмотря на критику, кажущуюся
-              простоту или сложность, сейчас без этих лотов невозможно представить
-              современную культуру. Когда в эти вещи не верил никто, продолжали верить
-              их создатели. И сейчас эти лоты стали культовыми.
-            </p>
+            <div class="container__paragraphs">
+              <p class="about__paragraph">
+                Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+                антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион.
+                Потому что кому нужен дневник девочки-подростка или картина, которую может
+                нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные
+                любителями?
+              </p>
+              <p class="about__paragraph">
+                Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
+                В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то
+                они казались просто неудачными. Но, несмотря на критику, кажущуюся
+                простоту или сложность, сейчас без этих лотов невозможно представить
+                современную культуру. Когда в эти вещи не верил никто, продолжали верить
+                их создатели. И сейчас эти лоты стали культовыми.
+              </p>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <addres class="footer__address">
-        <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+      <address class="block__address block__footer-address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        наб. Принсенграхт 263-265, <br>Амстердам
-      </addres>
+        <p>наб. Принсенграхт 263-265, <br>Амстердам</p>
+      </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item footer__menu-link_active">
-            главная
+            <a class="footer__menu-link">главная</a>
           </li>
           <li class="footer__menu-list-item">
-            посмотреть лоты
+            <a class="footer__menu-link">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            об аукционе
+            <a class="footer__menu-link">об аукционе</a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer_social-link-item">
-          <a class="footer_social-link">
+          <a class="footer_social-link" href="#0">
             <img class="footer__social-icon" src="images/yt.svg" alt="Логотип Ютуба">
           </a>
         </li>
         <li class="footer_social-link-item">
-          <a class="footer_social-link">
+          <a class="footer_social-link" href="#0">
             <img class="footer__social-icon" src="images/vk.svg" alt="Логотип Вконтакте">
           </a>
         </li>
         <li class="footer_social-link-item">
-          <a class="footer_social-link">
+          <a class="footer_social-link" href="#0">
             <img class="footer__social-icon" src="images/pinterest.svg" alt="Логотип Пинтереста">
           </a>
         </li>
