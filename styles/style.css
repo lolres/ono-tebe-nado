@@ -2,6 +2,7 @@
 body {
   max-width: 1440px;
   margin: auto;
+  outline: 1px solid blue
 }
 
 address {
@@ -46,6 +47,7 @@ address {
   display: flex;
   flex-direction: column;
   justify-self: flex-end;
+  align-items: flex-start;
   text-underline-offset: 3px;
   font-size: 18px;
   line-height: 1.3;
@@ -102,6 +104,10 @@ address {
   letter-spacing: 0;
 }
 
+.special__letter-spacing {
+  letter-spacing: 55px;
+}
+
 .cover__description {
   position: relative;
   z-index: 2;
@@ -133,6 +139,7 @@ address {
 }
 
 .lots__heading {
+  display: inline-block;
   margin-top: 180px;
   margin-left: 90px;
   margin-bottom: 27px;
@@ -201,7 +208,7 @@ address {
 }
 
 .lots__look-more-link {
-  display: block;
+  display: inline-block;
   margin-left: 90px;
   margin-top: 30px;
   margin-bottom: 182px;
@@ -287,4 +294,12 @@ address {
 
 .block__footer-address {
   justify-self: flex-start;
+}
+
+.cover {
+  display: none;
+}
+
+.lots {
+  display: none;
 }
