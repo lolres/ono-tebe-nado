@@ -51,10 +51,6 @@ address {
   line-height: 1.3;
 }
 
-.block__inline {
-  width:
-}
-
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -291,15 +287,4 @@ address {
 
 .block__footer-address {
   justify-self: flex-start;
-}
-
-
-
-
-.lots {
-  display: none;
-}
-
-.cover {
-  display: none;
 }
