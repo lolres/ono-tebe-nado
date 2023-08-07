@@ -2,7 +2,6 @@
 body {
   max-width: 1440px;
   margin: auto;
-  outline: 1px solid blue
 }
 
 address {
@@ -294,12 +293,4 @@ address {
 
 .block__footer-address {
   justify-self: flex-start;
-}
-
-.cover {
-  display: none;
-}
-
-.lots {
-  display: none;
 }
