@@ -1,8 +1,4 @@
 /* место для вашего кода */
-body {
-  max-width: 1440px;
-  margin: auto;
-}
 
 address {
   padding: 0;
@@ -33,6 +29,10 @@ address {
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
+  text-decoration: none;
+}
+
+.header__link-no-underline {
   text-decoration: none;
 }
 
@@ -277,6 +277,10 @@ address {
   justify-self: center;
   text-align: center;
   font-size: 18px;
+}
+
+.footer__menu-no-underline {
+  text-decoration: none;
 }
 
 .footer__social-list {
